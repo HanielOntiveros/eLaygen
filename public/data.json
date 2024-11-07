@@ -1,0 +1,36 @@
+{
+     "Navbar": [
+         { "id": 1, "nombre": "Opcion 1", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Navbar 1 </p></div>" },
+         { "id": 2, "nombre": "Opcion 2", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Navbar 2</p></div>" }
+    ], 
+     "Header": [
+      { "id": 1, "nombre": "Opcion 1", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Header 1 </p></div>"
+      },
+      { "id": 2, "nombre": "Opcion 2", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Header 2 </p></div>" },
+      { "id": 3, "nombre": "Opcion 3", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Header 3 </p></div>" },
+      { "id": 4, "nombre": "Opcion 4", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Header 4 </p></div>" }
+     
+  ],
+      "Card": [
+      { "id": 1, 
+        "nombre": "Opcion 1", 
+        "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd 1 </p></div>"
+      },
+      { "id": 3, "nombre": "Opcion 3", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd 3 </p></div>" },
+      { "id": 2, "nombre": "Opcion 2", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd2 </p></div>" },
+      { "id": 4, "nombre": "Opcion 4", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd 4 </p></div>" }
+     
+  ],
+    "Form": [
+        { "id": 1, "nombre": "Opcion 1", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Form 1 </p></div>" }
+    ],
+    "Footer": [
+        { "id": 1, 
+          "nombre": "Opcion 1", 
+          "componente": "<footer> <div class='container padd80 '> <div class='row d-flex justify-content-between'> <div class='d-flex flex-column pb-4 col-md-6 col-lg-3'> <div class='mb-4'> <img src='./assets/logos/logo-footer.svg' alt='Logo' /> </div> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Síguenos en </p> <span class='d-flex align-items-end'> <a href='https://www.facebook.com/'> <img src='../src/assets/icons/facebook.svg' alt='facebook-logo' class='pe-3' /> </a> <a href='https://www.linkedin.com/'  > <img src='../src/assets/icons/linkedin.svg' alt='linkedin-logo' class='pe-3' /> </a> <a href='https://www.instagram.com/'> <img src='../src/assets/icons/instagram.svg' alt='instagram-logo' class='pe-3' /> </a> <a href='https://www.tiktok.com'> <img src='../src/assets/icons/tiktok.svg' alt='tiktok-logo' class='pe-3' /> </a> </span> </div> <div class='d-flex justify-content-between col-xl-4 col-xxl-4'> <div class='d-flex flex-column pb-3'> <p class='ptitle mb-0 pb-2 fw-semibold'>Contáctanos</p> <span class='d-flex align-items-end'> <img src='../src/assets/icons/phone.svg' alt='phone-icon' class='pt-2 pe-3' /> <a class='text-decoration-none text-black' href='tel:++52 5589023371'> Telefono </a> </span> <span class='d-flex align-items-end'> <img src='../src/assets/icons/email.svg' alt=''email-icon class='pt-2 pe-3' /> <a class='text-decoration-none text-black' href='mailto:correo@dominio.com'>Correo electronico</a> </span> </div> <div class='d-flex flex-column pt-lg-0 pb-3'> <p class='fw-bold mb-0 pb-2 fw-semibold'>Encuéntranos en </p> <span class='d-flex align-items-end'> <img src='../src/assets/icons/location.svg' alt='location-icon' class='pt-2 pe-3' /> <a class='text-decoration-none text-black'  href='https://www.google.com/maps'> Ubicacion </a> </span> </div> </div> </div> <hr /> <div class='row pt-3'> <div class='d-flex flex-column flex-sm-row justify-content-between'> <a class='text-decoration-none text-black p12 mb-1 mb-sm-0'>AVISO DE PRIVACIDAD</a> <p class='text-decoration-none text-black p12 mb-1 mb-sm-0'>TODOS LOS DERECHOS RESERVADOS © 2024 </p> </div> <a class='p12 text-decoration-none text-black' href='http://comprarsitioweb.com/'>DISEÑADO POR COMPRAR SITIO WEB</a> </div> </div> </footer>"
+        },
+        { "id": 2, "nombre": "Opcion 2", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Footer 2 </p></div>" }
+       
+    ]
+  
+}
