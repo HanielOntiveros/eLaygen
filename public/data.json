@@ -1,29 +1,36 @@
 {
-     "Navbar": [
-         { "id": 1, "nombre": "Opcion 1", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Navbar 1 </p></div>" },
-         { "id": 2, "nombre": "Opcion 2", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Navbar 2</p></div>" }
-    ], 
-     "Header": [
-      { "id": 1, "nombre": "Opcion 1", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Header 1 </p></div>"
-      },
-      { "id": 2, "nombre": "Opcion 2", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Header 2 </p></div>" },
-      { "id": 3, "nombre": "Opcion 3", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Header 3 </p></div>" },
-      { "id": 4, "nombre": "Opcion 4", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Header 4 </p></div>" }
-     
-  ],
-      "Card": [
-      { "id": 1, 
+  "Header": [
+      { 
+        "id": 1, 
         "nombre": "Opcion 1", 
-        "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd 1 </p></div>"
+        "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Navbar 1</p></div>" 
       },
-      { "id": 3, "nombre": "Opcion 3", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd 3 </p></div>" },
-      { "id": 2, "nombre": "Opcion 2", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd2 </p></div>" },
-      { "id": 4, "nombre": "Opcion 4", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd 4 </p></div>" }
-     
+      { 
+        "id": 2, 
+        "nombre": "Opcion 2", 
+        "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Navbar 2</p></div>" 
+      }
+    ]
+,
+"Main" : {
+
+  "Card": [
+  { "id": 1, 
+    "nombre": "Opcion 1", 
+    "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>CArd 1 </p></div>"
+  },
+  { "id": 2, "nombre": "Opcion 2", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Card 2 </p></div>" },
+  { "id": 3, "nombre": "Opcion 3", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Card 3 </p></div>" },
+  { "id": 4, "nombre": "Opcion 4", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Card 4 </p></div>" }
+  
   ],
-    "Form": [
-        { "id": 1, "nombre": "Opcion 1", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Form 1 </p></div>" }
-    ],
+  "Form": [
+    { "id": 1, "nombre": "Opcion 1", "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Form 1 </p></div>" }
+  ]
+},
+
+
+
     "Footer": [
         { "id": 1, 
           "nombre": "Opcion 1", 
