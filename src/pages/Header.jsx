@@ -1,31 +1,21 @@
 import { useContext } from "react"
 import { PageContext } from "../Context/PageContext"
+import { useForm } from "../hooks/useForm"
 
 export const Header = () => {
-    const { webData, setCode, code } = useContext(PageContext)
+    const { webData } = useContext(PageContext)
+    const { handleReset, handleSubmit } = useForm()
 
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        const form = event.target;
-        const formData = new FormData(form);
-        const newData = [...formData].map(d => d[1])
-        setCode(() => [newData, ...code])
-    };
-
-    const handleReset = () => {
-        setCode([])
-    }
 
     return (
         <section>
             <h3>Header Section</h3>
-            <form onSubmit={handleSubmit} >
+            <form onSubmit={(e) => handleSubmit(e)} >
                 <div className="row jusitfy-content-start">
                     <select name="components" id="pet-select" >
                         <option value="">--Selecciona una opcion--</option>
                         {
-                            webData.Header.map((item) => (
+                            webData.Header && webData.Header.map((item) => (
                                 <option key={item.id} value={item.componente}>{item.nombre}</option>
                             ))
                         }
@@ -33,7 +23,7 @@ export const Header = () => {
 
                 </div>
                 <div className="my-3">
-                    <button className='btn btn-outline-dark w-25 ' type="reset" onClick={handleReset}>Reset</button>
+                    <button className='btn btn-outline-dark w-25 ' type="reset" onClick={(e) => handleReset(e)}>Reset</button>
 
                     <button className='btn btn-outline-dark w-25' type="submit">Submit</button>
                 </div>
