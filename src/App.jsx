@@ -9,6 +9,8 @@ import { SectionMenu } from "./components/SectionMenu";
 import { Header, Main, Footer } from "./pages";
 import { PageProvider } from "./Context/PageProvider";
 import { CodePreview } from "./CodePreview";
+import { ConverterForm } from "./components/ConverterForm";
+
 
 
 
@@ -46,6 +48,8 @@ export const App = () => {
         </div>
         <CodePreview />
       </section>
+      <ConverterForm />
+
     </PageProvider>
   );
 
