@@ -3,7 +3,7 @@
       { 
         "id": 1, 
         "nombre": "Opcion 1", 
-        "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>Navbar 1</p></div>" 
+        "componente": "<div clas> <p class='ptitle mb-0 pb-3 pt-4 pt-lg-0 fw-bold'>${title}</p></div>" 
       },
       { 
         "id": 2, 
