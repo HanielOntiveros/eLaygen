@@ -7,13 +7,8 @@ export const Main = () => {
     const { webData } = useContext(PageContext)
     const { handleReset, handleSubmit } = useForm()
 
-
-    // const [selectData, setSelectData] = useState("");
-    const [inputText, setInputText] = useState("");
-    const [inputText1, setInputText1] = useState("");
-    const [inputText2, setInputText2] = useState("");
-    const [inputText3, setInputText3] = useState("");
     const [component, setComponent] = useState('');
+    const [selectData, setSelectData] = useState("");
 
 
     // const handleAddTitle = () => {
@@ -26,6 +21,7 @@ export const Main = () => {
     //     }
 
     // };
+
 
     return (
         <section>
