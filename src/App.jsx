@@ -6,7 +6,7 @@
 
 import { Navigate, Route, Routes } from "react-router-dom";
 import { SectionMenu } from "./components/SectionMenu";
-import { Header, Main, Footer } from "./pages";
+import { Header, Main, Footer, HtmlToJson } from "./pages";
 import { PageProvider } from "./Context/PageProvider";
 import { CodePreview } from "./CodePreview";
 import { ConverterForm } from "./components/ConverterForm";
@@ -41,14 +41,14 @@ export const App = () => {
             <Route path='header' element={<Header />} />
             <Route path='main' element={<Main />} />
             <Route path='footer' element={<Footer />} />
+            <Route path='html-json' element={<HtmlToJson />} />
 
-            {/* <Route path="/*" element={<HomePage />} /> */}
             <Route path="/*" element={<Navigate to="/" />} />
           </Routes>
+          <CodePreview />
         </div>
-        <CodePreview />
       </section>
-      <ConverterForm />
+
 
     </PageProvider>
   );

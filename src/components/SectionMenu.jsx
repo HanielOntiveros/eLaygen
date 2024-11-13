@@ -28,6 +28,12 @@ export const SectionMenu = () => {
                             >
                                 Footer
                             </NavLink>
+                            <NavLink
+                                className={({ isActive }) => ` nav-link ${isActive ? 'active' : ''}`}
+                                to='/html-json'
+                            >
+                                HTML-JSON
+                            </NavLink>
 
                         </ul>
                     </div>
